@@ -1,0 +1,30 @@
+Title: * Carga condensador
+Date: Wed Jan 06 12:30:09 2021
+Plotname: Operating Point
+Flags: real
+No. Variables: 10
+No. Points:            1
+Offset:   0.0000000000000000e+000
+Command: Linear Technology Corporation LTspice XVII
+Variables:
+	0	V(1)	voltage
+	1	V(2)	voltage
+	2	V(3)	voltage
+	3	V(4)	voltage
+	4	I(C2)	device_current
+	5	I(C1)	device_current
+	6	I(R1)	device_current
+	7	I(V2dummy)	device_current
+	8	I(V1dummy)	device_current
+	9	I(V0)	device_current
+Values:
+0		-1.000000000000000e+001
+	-9.999998333333609e+000
+	-1.000000000000000e+001
+	-1.000000000000000e+001
+	1.666666390676141e-003
+	1.666666390676141e-003
+	3.333332777777870e-003
+	1.666666390519822e-003
+	1.666666390519822e-003
+	-3.333332781039644e-003

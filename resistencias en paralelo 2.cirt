@@ -1,0 +1,12 @@
+* Este es un circuito sencillo 2 adaptado para LTspice
+v1 0 1 vdc=9 type=vdc
+vdd1 2 3 vdc=0 type=vdc
+vdd2 4 5 vdc=0 type=vdc
+r1 1 2 47
+r2 3 4 220
+r4 5 6 1k
+r5 6 0 500
+r3 3 7 180
+v2 7 0 vdc=1.5 type=vdc
+.op
+.end

@@ -1,0 +1,5 @@
+* Circuito en corriente alterna
+v1 1 0 type=sin 0 120 60 0 0
+r1 0 1 10k
+.tran tstep=1 tstart=0 tstop=1 uic=0
+.end

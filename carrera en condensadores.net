@@ -1,0 +1,9 @@
+* Carga condensador
+v0 0 1 10
+r1 0 2 3k
+c1 2 3 47u ic=0
+v1dummy 3 1 0
+c2 2 4 22u ic=0
+v2dummy 4 1 0
+.tran 1
+.end
